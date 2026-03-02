@@ -1,0 +1,49 @@
+.internship-card {
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  width: 100%;
+  max-width: 420px;
+  margin-top: 20px;
+}
+
+.internship-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.view-btn {
+  margin-top: 15px;
+  padding: 8px 14px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+
+@media (max-width: 600px) {
+  .internship-card {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.05rem;
+  }
+
+  .view-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
