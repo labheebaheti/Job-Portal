@@ -1,7 +1,7 @@
 # Job Portal Web Application
 
  **Live Demo:**  
- job-portal-git-main-labhees-projects.vercel.app
+ https://job-portal-git-main-labhees-projects.vercel.app
 
 ---
 
